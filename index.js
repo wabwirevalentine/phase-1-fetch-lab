@@ -6,6 +6,8 @@ function fetchBooks() {
 }
 
 function renderBooks(books) {
+  console.log(books);
+
   const main = document.querySelector("main");
   books.forEach((book) => {
     const h2 = document.createElement("h2");
